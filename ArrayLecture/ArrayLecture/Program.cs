@@ -10,7 +10,7 @@ namespace ArrayLecture
     {
         static void Main(string[] args)
         {
-            int[] myNumArray = { 2, 5, 7 };
+            int[] myNumArray = { 2, 5, 9 };
             int[] myNumArray2 = new int[3];
 
             Console.WriteLine(myNumArray[0]); // 2
