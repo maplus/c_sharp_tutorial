@@ -13,6 +13,7 @@ namespace EntityFrameworkMVC.Models
         //[Email(ErrorMessage = "Bad email")]
         [DataType(DataType.EmailAddress)]
         public string EmailAddress { get; set; }
+        public string Secret { get; set; }
 
         public virtual ICollection<Enrollment> Enrollments { get; set; }
     }
